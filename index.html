@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Seat</title>
+</head>
+<body>
+    <div class="container">
+        <div class="movie-select">
+            <div class="movie-select-text">Pick a Movie : </div>
+            <select class="movie-select-items"></select>
+        </div>
+
+        <div class="seat-types">
+            <div class="seat-type-container">
+                <div class="seat-type seat seat-na"></div>
+                <div class="seat-type-text">N/A</div>
+            </div>
+            <div class="seat-type-container">
+                <div class="seat-type seat seat-selected"></div>
+                <div class="seat-type-text">Selected</div>
+            </div>
+            <div class="seat-type-container">
+                <div class="seat-type seat seat-occupied"></div>
+                <div class="seat-type-text">Occupied</div>
+            </div>
+        </div>
+
+        <div class="saloon">
+            <div class="screen"></div>
+
+            <div class="seats">
+                
+            </div>
+        </div>
+
+        <div class="total"></div>
+        <button type="button" class="submit">Get Ticket</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
